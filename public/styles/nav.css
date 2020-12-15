@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  height: 120px;
+  width: auto;
+  background-color: #4056A1;
+  color: #ffffff;
+  padding: 1.5em;
+  justify-content: space-between
+}
+
+.logo {
+  font-family: "Bungee";
+  font-size: xxx-large;
+}
+
+.rest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+  justify-items: flex;
+}
+
+.red {
+  color: red
+}
+
+.bold {
+  font-weight: 600;
+}
