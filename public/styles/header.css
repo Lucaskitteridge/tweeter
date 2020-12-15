@@ -1,0 +1,12 @@
+header{
+  height: 400px;
+  width: auto;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  background-color:#e0a800;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
