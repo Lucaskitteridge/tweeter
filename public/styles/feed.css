@@ -45,6 +45,7 @@
 .realname{
   font-weight: 350;
   font-size: medium;
+  margin-left: 1em;
 }
 
 .handle{
@@ -54,6 +55,11 @@
   justify-content: flex-end;
   opacity: .5;
   visibility: hidden;
+}
+
+.nameandimage {
+  display: flex;
+  align-items: center;
 }
 
 
