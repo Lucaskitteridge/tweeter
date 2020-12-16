@@ -26,6 +26,8 @@
      <!-- header-->
      <link rel="stylesheet" href="/styles/new-tweet.css" type= "text/css" />
 
+     <!-- header-->
+     <link rel="stylesheet" href="/styles/feed.css" type= "text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -38,7 +40,7 @@
 
   <body>
     <!-- Top nav bar (fixed) -->
-    <nav>
+    <nav class ="navbar">
       <span class="logo">tweeter</span>
       <div class="rest">
         <span><span class ="bold">Write</span> a new tweet</span>
@@ -46,8 +48,8 @@
       </div>
     </nav>
 
-    <header>
-      <div>
+    <header class= "verytop">
+      <div class="idppic">
           <img src="/images/profile-hex.png"> 
       </div>
       <br>
@@ -70,6 +72,26 @@
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+      </section>
+      <section class="tweet-container">
+        <header class="header">
+          <span class= "namehandle">
+            <span class="realname">Lucas Kitteridge</span> 
+            <span class="handle">@lucaskitteridge</span>
+          </span>
+        </header>
+        <a class="actualtweet">
+            There will be no foolish wand-waving or silly incantations in this class. As such, I don't expect many of you to appreciate the subtle science and exact art that is potion-making. However, for those select few who possess the predisposition, I can teach you how to bewitch the mind and ensnare the senses. I can tell you how to bottle fame, brew glory, and even put a stopper in death. Then again, maybe some of you have come to Hogwarts in possession of abilities so formidable that you feel confident enough to not pay attention!
+        </a>
+        <span class="borderline"></span>
+        <footer class="feedfooter">
+          <span class="dateofpost">2 days ago</span>
+          <div class="reposts">
+            <i class="fas fa-flag blue"></i>
+            <i class="fas fa-retweet blue"></i>
+            <i class="fas fa-heart blue" ></i>
+          </div>
+        </footer>
       </section>
     </main>
   </body>
