@@ -1,7 +1,8 @@
 .container {
   display: flex;
   justify-content: center;
-  width: auto;
+  width: inherit;
+  flex-direction: column;
 }
 
 .lastline{
@@ -9,6 +10,11 @@
   justify-content: space-between;
   margin-top: 5%;
   margin-bottom: 3%;
+}
+
+.namehandle {
+  display: flex;
+  flex-direction: row;
 }
 
 .counter{
