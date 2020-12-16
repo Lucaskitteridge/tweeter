@@ -1,11 +1,16 @@
-header{
+.verytop{
   height: 400px;
+  margin-top: 120px;
   width: auto;
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
   background-color:#cab987;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-div{
+.idpic{
   display: flex;
   justify-content: center;
   align-items: center;
