@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
-  width: inherit;
+  width: auto;
   flex-direction: column;
 }
 
