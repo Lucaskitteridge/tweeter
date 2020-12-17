@@ -8,8 +8,12 @@
 .lastline{
   display: flex;
   justify-content: space-between;
-  margin-top: 5%;
+  margin-top: 1em;
   margin-bottom: 3%;
+  border-bottom: rgb(46, 48, 49);
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  padding-top: .5em;
 }
 
 .namehandle {
@@ -27,7 +31,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
 }
 
 .button{
@@ -37,7 +40,9 @@
 }
 #tweet-text{
   background-color: #cab987;
-  border-bottom: rgb(46, 48, 49);
-  border-style: solid;
-  border-width: 0px 0px 2px 0px;
+  width: 100%;
+}
+
+.label{
+  padding-bottom: 1em;
 }
