@@ -21,7 +21,7 @@ const createTweetElement = function(tweetObject) {
         </p>
         <span class="borderline"></span>
         <footer class="feedfooter">
-          <span class="dateofpost">${new Date(tweetObject.created_at)}</span>
+          <span class="dateofpost">${Math.round((Date.now() - tweetObject.created_at)/86400000)+ ' Days ago'}</span>
           <div class="reposts">
             <i class="fas fa-flag blue"></i>
             <i class="fas fa-retweet blue"></i>
