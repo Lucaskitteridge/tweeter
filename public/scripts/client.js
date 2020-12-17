@@ -1,11 +1,13 @@
+//making a new tweet
 const createTweetElement = function(tweetObject) {
   
+  //anti-hacker
   const escape =  function(str) {
     let div = document.createElement('div');
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
   };
-    
+    //the form that gets added with each new tweet
   const $tweet = $(`<section class="tweet-container">
         <header class="header">
           <span class= "namehandle">
@@ -16,9 +18,7 @@ const createTweetElement = function(tweetObject) {
             <span class="handle">${tweetObject.user.handle}</span>
           </span>
         </header>
-        <p class="actualtweet">
-            ${escape(tweetObject.content.text)}
-        </p>
+        <p class="actualtweet">${escape(tweetObject.content.text)}</p>
         <span class="borderline"></span>
         <footer class="feedfooter">
           <span class="dateofpost">${Math.round((Date.now() - tweetObject.created_at)/86400000)+ ' Days ago'}</span>
@@ -33,12 +33,14 @@ const createTweetElement = function(tweetObject) {
   return $tweet;
 };
 
+//add the new tweets to the top
 const renderTweets = function(tweets) {
   for (let indtweet of tweets) {
     $('.tweets-container').prepend(createTweetElement(indtweet));
   }
 };
 
+//get the tweets from the database
 $(document).ready(function() {
 
   const loadTweets = function() {
@@ -59,6 +61,7 @@ $(document).ready(function() {
 
     const inputbox = $(this).serialize();
 
+    //if tweets are too long or nothing then wont submit and error appears
     if ($('#tweet-text').val().length > 140) {
       $('.error-message').css("display", "block");
       $('.error-message').text("Too much tweeting, bring it under 140 characters");
@@ -71,6 +74,8 @@ $(document).ready(function() {
       return;
     }
     $('.error-message').css("display", "none");
+
+    //post new tweets if nothing is wrong
     $.ajax({
       method: 'POST',
       url: 'http://localhost:8080/tweets',
