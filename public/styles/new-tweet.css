@@ -3,6 +3,7 @@
   justify-content: center;
   width: auto;
   flex-direction: column;
+  background-color: rgb(219, 200, 164);
 }
 
 .lastline{
@@ -39,7 +40,7 @@
   
 }
 #tweet-text{
-  background-color: #cab987;
+  background-color: rgb(219, 200, 164);
   width: 100%;
 }
 

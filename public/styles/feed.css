@@ -1,11 +1,9 @@
 .tweet-container {
   display: flex;
   justify-content: center;
-  background-color: #cab987;
+  background-color: rgb(219, 200, 164);
   flex-direction: column;
-  border-top: rgb(46, 48, 49);
-  border-style: solid;
-  border-width: 2px 2px 2px 2px;
+  border:2px solid rgb(46, 48, 49);
   width: auto;
   margin-bottom: 1em;
 }

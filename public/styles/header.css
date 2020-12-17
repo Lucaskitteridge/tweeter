@@ -3,7 +3,7 @@
   margin-top: 120px;
   width: auto;
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
-  background-color:#cab987;;
+  background-color:rgb(240, 219, 180);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,28 @@
 }
 
 .idpic{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    background-color:rgb(219, 200, 164);
+  }
+  .verytop{
+    margin-top: 160px;
+    width: 40%;
+  }
+
+  .container{
+    margin-top: 120px;
+
+  }
+  nav{
+    background-color:  #4056A1;
+    background-image: none;
+  }
 }

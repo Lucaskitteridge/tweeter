@@ -2,14 +2,13 @@ nav {
   display: flex;
   height: 120px;
   width: 100%;
-  background-color: #4056A1;
+  background-color:  rgb(240, 219, 180);
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
   color: #ffffff;
   padding: 1.5em;
   justify-content: space-between;
   position: fixed;
-  top: 0;
-
-  
+  top: 0;  
 }
 
 .logo {
