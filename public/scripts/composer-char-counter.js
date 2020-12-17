@@ -1,3 +1,5 @@
+//the character counter that turns red when over
+
 $(document).ready(function() {
   $("textarea").keyup(function() {
     const $counter = $(this).parent().siblings(".lastline").children(".counter");
