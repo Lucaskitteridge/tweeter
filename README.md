@@ -16,3 +16,15 @@ Tweeter is a simple, single-page AJAX based Twitter clone that uses jquery, html
 - Body Parser
 - Chance
 - MD5
+
+## Screenshots
+
+!["Basic front page image"](https://github.com/Lucaskitteridge/tweeter/blob/master/docs/Full%20size%20basic%20page.png?raw=true)
+
+!["Thinner version of the main page with responsive design"](https://github.com/Lucaskitteridge/tweeter/blob/master/docs/Thinner%20page%20w:%20responsive%20design.png?raw=true)
+
+!["Error message appears if input is empty"](https://github.com/Lucaskitteridge/tweeter/blob/master/docs/Error%20message%20appears.png?raw=true)
+
+!["Typing a new tweet into the input box"](https://github.com/Lucaskitteridge/tweeter/blob/master/docs/Error%20message%20appears.png?raw=true)
+
+!["New tweet appears at the very top with how long ago it was posted"](https://github.com/Lucaskitteridge/tweeter/blob/master/docs/New%20Tweet%20appears.png?raw=true)
